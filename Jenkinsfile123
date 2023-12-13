@@ -16,7 +16,7 @@ pipeline {
     stage('Compile') {
             steps {
                 sh "mvn compile"
-              echo Hello world
+                sh "echo Hello world"
             }
         }
     
